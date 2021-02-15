@@ -1,9 +1,9 @@
 @echo off
-rem ---------------------------------------------------------------------- 
-rem | This program can disable some programs on your computer                                          |
-rem | By @xiarimangguo // My Github: https://github.com/xiarimangguo/                                   |
-rem | If  you like this, don't forget to give me a star on Github!!!                                                   |
-rem ---------------------------------------------------------------------- 
+rem ----------------------------------------------------------------------
+rem | This program can disable some programs on your computer            |
+rem | By @xiarimangguo // My Github: https://github.com/xiarimangguo/    |
+rem | If  you like this, don't forget to give me a star on Github!!!     |
+rem ----------------------------------------------------------------------
 rem Hide cmd window
 if "%1"=="hide" goto CmdBegin
 start mshta vbscript:createobject("wscript.shell").run("""%~0"" hide",0)(window.close)&&exit
@@ -12,9 +12,9 @@ rem Set output encoding
 chcp 437
 rem Enable variable delay
 setlocal enabledelayedexpansion
-rem ---------------------------------------------------------------------- 
+rem ----------------------------------------------------------------------
 rem List the programs you want to ban below
-rem ---------------------------------------------------------------------- 
+rem ----------------------------------------------------------------------
 set lp1=chrome.exe
 set lp2=msedge.exe
 set lp3=iexplore.exe
@@ -35,7 +35,7 @@ set lp17=
 set lp18=
 set lp19=
 set lp20=
-rem ---------------------------------------------------------------------- 
+rem ----------------------------------------------------------------------
 :Findexe
 rem Scan for running programs
 rem Generate temporary files
