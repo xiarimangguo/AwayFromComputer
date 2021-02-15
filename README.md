@@ -61,6 +61,6 @@
 * 重启电脑即可看到效果
 #### 最后
 *如何获取密码？*
-* 使用另一台设备，访问 `http://192.168.x.x/pass.txt` ( '192.168.x.x'为您的电脑的局域网IP地址 )
+* 使用另一台设备，访问 `http://192.168.x.x/pass.txt` ( '192.168.x.x'为IIS服务器的局域网IP地址 )
 ## 演示
 [![Watch the video](https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBa0JKZU81TC1qRGZveFZQZkkyTkJpaG4zU19r.png)](http://fscache20.cooles.top/Upload/Demo.mp4)
