@@ -63,4 +63,4 @@
 *如何获取密码？*
 * 使用另一台设备，访问 `http://192.168.x.x/pass.txt` ( '192.168.x.x'为您的局域网IP地址 )
 ## 演示
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](#)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://raw.githubusercontent.com/xiarimangguo/AwayFromComputer/main/Demo.png)
