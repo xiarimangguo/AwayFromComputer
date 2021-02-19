@@ -1,4 +1,4 @@
-# AwayFromComputer
+# Computer-Goodbye
 ## 可能的用途
 * ~~您希望远离电脑， 回归现实生活~~
 * 希望禁止一些顽固软件的自启
